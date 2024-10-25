@@ -1,0 +1,58 @@
+.image__container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2 / 1.2;
+}
+
+.image__container img {
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  width: 100%;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000;
+  line-height: 1.7;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  padding: 30px 20px;
+  text-align: left;
+}
+
+.content h4 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media all and (min-width: 768px) {
+  .card {
+    flex: 0 0 300px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .content h4 {
+    font-size: 22px;
+  }
+
+  .content p {
+    font-size: 16px;
+    line-height: 2;
+  }
+
+  .card {
+    flex: 0 0 350px;
+  }
+}

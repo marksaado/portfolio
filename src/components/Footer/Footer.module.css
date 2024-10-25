@@ -1,0 +1,45 @@
+.wave {
+  position: relative;
+  bottom: -15px;
+}
+
+.container {
+  background-color: rgb(10, 0, 27);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0 100px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .container a {
+    font-size: 18px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .container a {
+    font-size: 20px;
+  }
+}
